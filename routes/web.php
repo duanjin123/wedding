@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/test', 'Home\IndexController@index')->name('index.test');
